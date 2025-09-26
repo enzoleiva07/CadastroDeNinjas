@@ -24,6 +24,7 @@ public class NinjaModel {
 
     private int idade;
 
+    @Column(unique = true)
     private String email;
 
     // @ManyToOne - Um ninja está atribuido em apenas uma missão.
