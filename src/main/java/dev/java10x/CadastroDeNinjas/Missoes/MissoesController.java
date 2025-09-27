@@ -10,5 +10,4 @@ public class MissoesController {
 
     @GetMapping("/aba-de-missoes")
     public String abaMissoes() { return "Essa é a futura tabela de missões!"; }
-
 }
