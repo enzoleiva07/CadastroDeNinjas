@@ -8,9 +8,9 @@ O projeto utiliza H2 como banco de dados em memória, Flyway para migrações de
 # Visão Geral do Projeto
 Este sistema foi desenvolvido para gerenciar ninjas e suas missões. Cada ninja pode ser atribuído a uma única missão, enquanto uma missão pode ser associada a vários ninjas. As principais funcionalidades incluem:
 
- -Cadastro de ninjas com nome, idade, email e rank.
- -Atribuição de uma missão para um ninja.
- -Gerenciamento de missões e dos ninjas associados a elas.
+- Cadastro de ninjas com nome, idade, email e rank.
+- Atribuição de uma missão para um ninja.
+- Gerenciamento de missões e dos ninjas associados a elas.
  
 # Tecnologias Utilizadas
 - Spring Boot: Para criação da aplicação web e gerenciamento de dependências.
@@ -37,3 +37,4 @@ Este sistema foi desenvolvido para gerenciar ninjas e suas missões. Cada ninja 
 - Construa o projeto: mvn clean install
 - Execute a aplicação: mvn spring-boot:run
 - Acesse a aplicação em http://localhost:8080
+
