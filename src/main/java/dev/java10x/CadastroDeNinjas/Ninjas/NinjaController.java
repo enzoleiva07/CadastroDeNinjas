@@ -16,12 +16,12 @@ public class NinjaController {
 
     // Adicionar Ninja (Create)
     @PostMapping("/criar")
-    public String criarNinja(){ return "Ninja criado."; }
+    public NinjaModel criarNinja(@RequestBody NinjaModel ninja){ return ninjaService.criarNinja(ninja); }
 
     // Mostrar ninja por ID (Read)
     @GetMapping("/listar")
     public List<NinjaModel> listarNinjas(){
-            return ninjaService.listarNinjas();
+            return ninjaService.listarNinjas(); 
     }
 
     //localhost8080/ninjas/listar/ID
